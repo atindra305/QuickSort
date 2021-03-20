@@ -1,0 +1,15 @@
+
+Partition(arr[], l, r){
+
+	pivot = arr[r];
+	i = l - 1;
+	for j= l to r-1
+		if arr[j] < pivot
+			i++;
+			swap(i, j)
+
+	swap(i+1, r)
+	return i+1
+
+}
+
